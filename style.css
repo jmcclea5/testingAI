@@ -1,33 +1,119 @@
-body {
-  font-family: Arial, sans-serif;
+* {
   margin: 0;
   padding: 0;
-  background-color: #f7f7f7;
+  box-sizing: border-box;
 }
 
+body {
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navigation */
 nav {
-  background-color: #333;
-  padding: 1em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #111;
+  padding: 1em 2em;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
 }
 
 nav ul {
   list-style: none;
   display: flex;
-  gap: 2em;
-  margin: 0;
-  padding: 0;
+  justify-content: center;
+  gap: 2rem;
 }
 
 nav ul li a {
-  color: white;
+  color: #f8f8f8;
   text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 0.5rem;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  border-bottom: 2px solid transparent;
 }
 
+nav ul li a:hover {
+  color: #00bcd4;
+  border-bottom: 2px solid #00bcd4;
+}
+
+/* Main Container */
 main {
-  padding: 2em;
-  background-color: white;
-  max-width: 800px;
-  margin: 2em auto;
+  padding: 6em 2em 2em;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Typography */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+p, li {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+/* Page Sections */
+section {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Events List */
+ul {
+  padding-left: 1.5rem;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* Contact Info */
+.contact-info p {
+  margin-bottom: 0.5rem;
+}
+
+/* Buttons (optional for future) */
+button {
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  padding: 0.75em 1.5em;
+  font-size: 1rem;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0097a7;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  main {
+    padding: 7em 1em 2em;
+  }
 }
