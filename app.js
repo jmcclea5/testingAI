@@ -13,6 +13,9 @@ const pages = {
         <div class="carousel-item" onclick="navigate('events')">
           <img src="SEM-images/stockPebbles.png" alt="Beach Yoga">
         </div>
+        <div class="carousel-item" onclick="navigate('events')">
+          <img src="SEM-images/coedSoccerTeam.jpg" alt="coed Soccer Tournament">
+        </div>
       </div>
     </section>
 
