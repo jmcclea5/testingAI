@@ -240,6 +240,11 @@ function setupCarouselAutoscroll() {
   }, scrollInterval);
 }
 
+function toggleMenu() {
+  const navLinks = document.querySelector('.nav-links');
+  navLinks.classList.toggle('show');
+}
+
 // Load initial content
 window.onload = () => {
   const hash = location.hash.replace('#', '') || 'home';
