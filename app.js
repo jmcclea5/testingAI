@@ -54,21 +54,21 @@ const pages = {
     <h1>Upcoming Events</h1>
     <div class="event-grid">
        <div class="event-card">
-          <img src="SEM-images/Maraton JJC.png" alt="Maraton JJC" />
-          <h3>Maraton JJC</h3>
-          <p class="date">Date: 2025-08-01</p>
-          <p class="description">Join us for our annual marathon and support local youth programs.</p>
-      </div>
-      
-      <div class="event-card">
-          <img src="SEM-images/marathonMania.png" alt="Marathon Mania" />
+          <img src="SEM-images/MarathonMania.png" alt="Marathon Mania" />
           <h3>Marathon Mania</h3>
-          <p class="date">Date: 2025-09-10</p>
-          <p class="description">Experience the thrill of endurance with runners from across the country.</p>
+          <p class="date">Date: 2025-08-01</p>
+          <p class="description">Join us to support our group of Marathon runners this year!</p>
       </div>
       
       <div class="event-card">
-          <img src="SEM-images/coed soccer team.jpg" alt="Coed Soccer Tournament" />
+          <img src="SEM-images/stockPebbles.png" alt="Beach Yoga" />
+          <h3>Beach Yoga</h3>
+          <p class="date">Date: 2025-09-10</p>
+          <p class="description">Experience the thrill of free yoga on the beach</p>
+      </div>
+      
+      <div class="event-card">
+          <img src="SEM-images/coedSoccerTeam.jpg" alt="Coed Soccer Tournament" />
           <h3>Coed Soccer Tournament</h3>
           <p class="date">Date: 2025-10-05</p>
           <p class="description">Teams compete in a friendly community soccer event. Fun for all ages!</p>
@@ -79,15 +79,27 @@ const pages = {
   <section>
     <h2>Past Events</h2>
     <div class="event-grid">
-      ${[1, 2, 3].map(i => `
-        <div class="event-card">
+       <div class="event-card">
           <img src="SEM-images/MarathonMania.png" alt="Marathon Mania" />
-          <h3>Past Event ${i}</h3>
-          <p class="date">Date: 2025-0${i + 3}-15</p>
-          <p class="description">Short recap of past event ${i}, including achievements or outcomes.</p>
-        </div>
-      `).join('')}
-    </div>
+          <h3>Marathon Mania</h3>
+          <p class="date">Date: 2025-08-01</p>
+          <p class="description">Join us to support our group of Marathon runners this year!</p>
+      </div>
+      
+      <div class="event-card">
+          <img src="SEM-images/stockPebbles.png" alt="Beach Yoga" />
+          <h3>Beach Yoga</h3>
+          <p class="date">Date: 2025-09-10</p>
+          <p class="description">Experience the thrill of free yoga on the beach</p>
+      </div>
+      
+      <div class="event-card">
+          <img src="SEM-images/polarPlunge2025.jpg" alt="Polar Plunge" />
+          <h3>Polar Plunge</h3>
+          <p class="date">Date: 2025-10-05</p>
+          <p class="description">Teams compete in a friendly community soccer event. Fun for all ages!</p>
+      </div>
+  </div>
   </section>
   `,
   
