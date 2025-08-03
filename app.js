@@ -74,6 +74,28 @@ const pages = {
 function navigate(page) {
   const content = document.getElementById('content');
   content.innerHTML = pages[page] || pages['home'];
+  setupCarouselAutoscroll();
+}
+
+function setupCarouselAutoscroll() {
+  const carousel = document.querySelector('.carousel');
+  if (!carousel) return;
+
+  let scrollAmount = 0;
+  const scrollStep = 320; // pixels
+  const scrollInterval = 3000; // ms
+
+  setInterval(() => {
+    if (!carousel) return;
+    scrollAmount += scrollStep;
+    if (scrollAmount >= carousel.scrollWidth - carousel.clientWidth) {
+      scrollAmount = 0;
+    }
+    carousel.scrollTo({
+      left: scrollAmount,
+      behavior: 'smooth'
+    });
+  }, scrollInterval);
 }
 
 // Load initial content
