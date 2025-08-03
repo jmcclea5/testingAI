@@ -123,14 +123,64 @@ const pages = {
   <section>
     <h2>Meet the Team</h2>
     <div class="team-grid">
-      ${[...Array(8)].map((_, i) => `
-        <div class="team-member">
-          <img src="https://via.placeholder.com/150?text=Team+${i + 1}" alt="Team Member ${i + 1}" />
-          <h3>Member ${i + 1}</h3>
-          <p class="role">Role ${i + 1}</p>
-          <p class="description">Short description about team member ${i + 1} and their contribution to the project.</p>
-        </div>
-      `).join('')}
+    
+      <div class="team-member">
+          <img src="SEM-images/MichelleHeadshot.jpeg" alt="Michelle - Team Leader" />
+          <h3>Michelle Cannon</h3>
+          <p class="role">Board Member </p>
+          <p class="description">Michelle is an education administration with 20 years experience in strategic, instructional, and program design at public and independent schools as well as educational non-profits, most recently in Boston Public schools. A former high school athlete (and Boston Latin School Athletics Hall of Fame honoree) who has coached in the community, she is a life-long Dorchester resident and lives there with her husband and two children.</p>
+      </div>
+      
+      <div class="team-member">
+          <img src="SEM-images/otherDerekPic.jpeg" alt="Placeholder" />
+          <h3>Derek McCleary</h3>
+          <p class="role">Founder & President </p>
+          <p class="description">JDerek is an SVP for TD Bank and has been working in banking and finance for 36 years.  He is also a 20+ year coach and life long volunteer. An entrepreneur, he has founded several companies in the sports industry and is passionate about the role sports play in youth development and society as a whole.  Derek has five children who have played high school and collegiate soccer and lives in Quincy (OFD). </p>
+      </div>
+      
+      <div class="team-member">
+          <img src="SEM-images/SmileEveryMileLogo.jpeg" alt="Placeholder" />
+          <h3>Rita Bailey</h3>
+          <p class="role">Board Member</p>
+          <p class="description">Rita is a Registered Nurse whose past experiences include working as a staff nurse at Brigham and Women’s Hospital and as a school nurse and Coordinator of Health Services at Quincy Public Schools. She was responsible for the Nursing Department and implementing the Health and Wellness Policy for the school district. Rita has run nine marathons and has participated in several triathlons. Rita has since retired and continues to stay active within the community. </p>
+      </div>
+      
+      <div class="team-member">
+          <img src="SEM-images/SmileEveryMileLogo.jpeg" alt="Placeholder" />
+          <h3>Christine Bailey</h3>
+          <p class="role">Board Member</p>
+          <p class="description">Christine has worked in the healthcare industry for 25 years and is a life long volunteer and a fundraising guru. She is a 4 year board member of Cedar Grove Neighborhood Association and prior president of Saint Brendan’s Parent Guild. She is currently employed at Boston Public Schools in the special education department. She was born and raised in Dorchester, where she lives with her husband, a Boston Police Sargent,  and their two children.</p>
+      </div>
+      
+      <div class="team-member">
+          <img src="SEM-images/SmileEveryMileLogo.jpeg" alt="Placeholder" />
+          <h3> Jared McCleary </h3>
+          <p class="role"> Board Member </p>
+          <p class="description">Jared ran his first Marathon at 19 and is a former division 1 soccer player.  He took to coaching after his playing career came to an end, with positions at UMass Amherst and Holy Cross, as well as at the youth level for the NE Revolution, Western MA Pioneers, Strikers United, and Boston Bolts.</p>
+      </div>
+      
+      <div class="team-member">
+          <img src="SEM-images/SmileEveryMileLogo.jpeg" alt="Placeholder" />
+          <h3>Shannon McCleary </h3>
+          <p class="role">Chief People Officer</p>
+          <p class="description">Sara manages social media and promotional campaigns.</p>
+      </div>
+      
+      <div class="team-member">
+          <img src="SEM-images/SmileEveryMileLogo.jpeg" alt="Placeholder" />
+          <h3> Caitlin McCleary</h3>
+          <p class="role">Social Media Coordinator </p>
+          <p class="description">Shannon's passion knows no bounds, as 4 knee surgeries, 3 new ACLs, a few re-attached MCL, LCL, TCL, and PCL tendons have not been enough to stop her from playing soccer.  Her impressive Highschool soccer career, while hindered by injury, still earned her a roster spot on a college soccer team.  She now spends her time yelling at people on zoom meetings and is eager to find a way back into the athletics she loves so much.  </p>
+      </div>
+
+      <div class="team-member">
+          <img src="SEM-images/SmileEveryMileLogo.jpeg" alt="Placeholder" />
+          <h3>Tara McCleary </h3>
+          <p class="role">Marketing Specialist</p>
+          <p class="description">Caitlin is a former college soccer player, current travel team coach for the Dorchester Youth soccer, and avid runner (prior marathoner).  She has worked the last 10 years as a cardiology nurse.  She lives in Dorchester with her 4 children.</p>
+      </div>
+
+      
     </div>
   </section>
   `,
