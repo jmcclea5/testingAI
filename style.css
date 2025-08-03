@@ -357,3 +357,23 @@ button:hover {
     justify-content: space-between;
     align-items: center;
   }
+
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+  gap: 0.5rem;
+}
+
+.indicator-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ccc;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.indicator-dot.active {
+  background-color: #00bcd4;
+}
