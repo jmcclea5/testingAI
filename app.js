@@ -188,7 +188,7 @@ Smile Every Mile, Inc. (SEM) operates as a 501c non-profit organization serving 
   <section>
     <h1>Contact Us</h1>
     <p>If you'd like to get in touch, please send us an email at 
-      <a href="mailto:your@email.com">damccleart@yahoo.com</a>.
+      <a href="mailto:your@email.com">damccleary@yahoo.com</a>.
     </p>
   </section>
 
