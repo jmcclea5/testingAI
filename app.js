@@ -55,10 +55,10 @@ const pages = {
     <div class="event-grid">
       ${[1, 2, 3].map(i => `
         <div class="event-card">
-          <img src="https://via.placeholder.com/300x180?text=Upcoming+Event+${i}" alt="Upcoming Event ${i}" />
+          <img src="SEM-images/stockPebbles.png" alt="Beach yoga" />
           <h3>Upcoming Event ${i}</h3>
           <p class="date">Date: 2025-0${i + 7}-01</p>
-          <p class="description">Brief details about upcoming event ${i}, including highlights or goals.</p>
+          <p class="description">just practicing the formatting</p>
         </div>
       `).join('')}
     </div>
@@ -69,7 +69,7 @@ const pages = {
     <div class="event-grid">
       ${[1, 2, 3].map(i => `
         <div class="event-card">
-          <img src="https://via.placeholder.com/300x180?text=Past+Event+${i}" alt="Past Event ${i}" />
+          <img src="SEM-images/MarathonMania.png" alt="Marathon Mania" />
           <h3>Past Event ${i}</h3>
           <p class="date">Date: 2025-0${i + 3}-15</p>
           <p class="description">Short recap of past event ${i}, including achievements or outcomes.</p>
