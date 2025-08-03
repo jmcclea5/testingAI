@@ -27,20 +27,20 @@ const pages = {
       <h2>Smile Every Mile Athletes</h2>
       <div class="athletes-grid">
         <div class="athlete-card">
-          <img src="https://via.placeholder.com/150?text=Athlete+1" alt="Athlete 1" />
-          <p>Athlete 1</p>
+          <img src="SEM-images/Tarasoccer pic.jpg" alt="Tara McCleary" /> //need to change name of her file
+          <p>Tara McCleary</p>
         </div>
         <div class="athlete-card">
-          <img src="https://via.placeholder.com/150?text=Athlete+2" alt="Athlete 2" />
-          <p>Athlete 2</p>
+          <img src="SEM-images/MichelleHeadshot.jpeg" alt="Michelle Cannon" />
+          <p>Michelle Cannon</p>
         </div>
         <div class="athlete-card">
-          <img src="https://via.placeholder.com/150?text=Athlete+3" alt="Athlete 3" />
-          <p>Athlete 3</p>
+          <img src="SEM-images/dereks pic.jpeg" alt="Derek McCleary" /> // need to update naming convention for this as well
+          <p>Derek McCleary</p>
         </div>
         <div class="athlete-card">
-          <img src="https://via.placeholder.com/150?text=Athlete+4" alt="Athlete 4" />
-          <p>Athlete 4</p>
+          <img src="SEM-images/michellePic.jpeg" alt="Megan Cormican" />
+          <p>Megan Cormican</p>
         </div>
       </div>
     </section>
