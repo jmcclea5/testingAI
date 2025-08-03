@@ -5,13 +5,13 @@ const pages = {
       <h2>Upcoming Events</h2>
       <div class="carousel">
         <div class="carousel-item" onclick="navigate('events')">
-          <img src="https://via.placeholder.com/300x200?text=Event+1" alt="Event 1">
+          <img src="SEM-images/MarathonMania.png" alt="Marathon Mania">
         </div>
         <div class="carousel-item" onclick="navigate('events')">
-          <img src="https://via.placeholder.com/300x200?text=Event+2" alt="Event 2">
+          <img src="SEM-images/polarPlunge 2025.png" alt="Polar Plunge"> 
         </div>
         <div class="carousel-item" onclick="navigate('events')">
-          <img src="https://via.placeholder.com/300x200?text=Event+3" alt="Event 3">
+          <img src="SEM-images/stockPebbles.png" alt="Event 3">
         </div>
       </div>
     </section>
