@@ -58,10 +58,35 @@ const pages = {
   `,
   about: `
     <section>
-      <h1>About Us</h1>
-      <p>We are a small team passionate about building simple and beautiful web experiences.</p>
-    </section>
-  `,
+    <h1>About Us</h1>
+    <p>We are a small team passionate about building simple and beautiful web experiences.</p>
+  </section>
+
+  <!-- ✅ Our Mission -->
+  <section>
+    <h2>Our Mission</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in luctus nunc. 
+      Nullam vitae tortor vel leo facilisis interdum. Pellentesque eu erat at dui porttitor 
+      dictum vel nec sapien. Integer ut ultrices justo.
+    </p>
+  </section>
+
+  <!-- ✅ Meet the Team -->
+  <section>
+    <h2>Meet the Team</h2>
+    <div class="team-grid">
+      ${[...Array(8)].map((_, i) => `
+        <div class="team-member">
+          <img src="https://via.placeholder.com/150?text=Team+${i + 1}" alt="Team Member ${i + 1}" />
+          <h3>Member ${i + 1}</h3>
+          <p class="role">Role ${i + 1}</p>
+          <p class="description">Short description about team member ${i + 1} and their contribution to the project.</p>
+        </div>
+      `).join('')}
+    </div>
+  </section>
+  `
   contact: `
     <section>
       <h1>Contact Us</h1>
