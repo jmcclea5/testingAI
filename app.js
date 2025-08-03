@@ -27,7 +27,7 @@ const pages = {
       <h2>Smile Every Mile Athletes</h2>
       <div class="athletes-grid">
         <div class="athlete-card">
-          <img src="SEM-images/Tarasoccer pic.jpg" alt="Tara McCleary" /> //need to change name of her file
+          <img src="SEM-images/TaraSoccerPic.jpg" alt="Tara McCleary" /> //need to change name of her file
           <p>Tara McCleary</p>
         </div>
         <div class="athlete-card">
@@ -35,7 +35,7 @@ const pages = {
           <p>Michelle Cannon</p>
         </div>
         <div class="athlete-card">
-          <img src="SEM-images/dereks pic.jpeg" alt="Derek McCleary" /> // need to update naming convention for this as well
+          <img src="SEM-images/dereksPic.jpeg" alt="Derek McCleary" /> // need to update naming convention for this as well
           <p>Derek McCleary</p>
         </div>
         <div class="athlete-card">
