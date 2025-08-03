@@ -53,15 +53,27 @@ const pages = {
   <section>
     <h1>Upcoming Events</h1>
     <div class="event-grid">
-      ${[1, 2, 3].map(i => `
-        <div class="event-card">
-          <img src="SEM-images/stockPebbles.png" alt="Beach yoga" />
-          <h3>Upcoming Event ${i}</h3>
-          <p class="date">Date: 2025-0${i + 7}-01</p>
-          <p class="description">just practicing the formatting</p>
-        </div>
-      `).join('')}
-    </div>
+       <div class="event-card">
+          <img src="SEM-images/Maraton JJC.png" alt="Maraton JJC" />
+          <h3>Maraton JJC</h3>
+          <p class="date">Date: 2025-08-01</p>
+          <p class="description">Join us for our annual marathon and support local youth programs.</p>
+      </div>
+      
+      <div class="event-card">
+          <img src="SEM-images/marathonMania.png" alt="Marathon Mania" />
+          <h3>Marathon Mania</h3>
+          <p class="date">Date: 2025-09-10</p>
+          <p class="description">Experience the thrill of endurance with runners from across the country.</p>
+      </div>
+      
+      <div class="event-card">
+          <img src="SEM-images/coed soccer team.jpg" alt="Coed Soccer Tournament" />
+          <h3>Coed Soccer Tournament</h3>
+          <p class="date">Date: 2025-10-05</p>
+          <p class="description">Teams compete in a friendly community soccer event. Fun for all ages!</p>
+      </div>
+  </div>
   </section>
 
   <section>
