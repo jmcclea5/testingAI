@@ -8,7 +8,7 @@ const pages = {
           <img src="SEM-images/MarathonMania.png" alt="Marathon Mania">
         </div>
         <div class="carousel-item" onclick="navigate('events')">
-          <img src="SEM-images/polarPlunge2025.png" alt="Polar Plunge"> 
+          <img src="SEM-images/polarPlunge2025.jpg" alt="Polar Plunge"> 
         </div>
         <div class="carousel-item" onclick="navigate('events')">
           <img src="SEM-images/stockPebbles.png" alt="Beach Yoga">
