@@ -209,3 +209,20 @@ button:hover {
   font-size: 1.25rem;
 }
 
+.site-footer {
+  background-color: #111;
+  color: #f8f8f8;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+  margin-top: 4rem;
+}
+
+.site-footer a {
+  color: #00bcd4;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
