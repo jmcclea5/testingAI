@@ -107,13 +107,34 @@ const pages = {
     </div>
   </section>
   `,
+  
   contact: `
-    <section>
-      <h1>Contact Us</h1>
-      <p>Email: contact@example.com</p>
-      <p>Phone: 123-456-7890</p>
-    </section>
-  `,
+  <section>
+    <h1>Contact Us</h1>
+    <p>If you'd like to get in touch, please send us an email at 
+      <a href="mailto:your@email.com">your@email.com</a>.
+    </p>
+  </section>
+
+  <section>
+    <h2>Support Our Mission</h2>
+    <p>Your donations help us continue encouraging athletes and organizing community events.</p>
+    <div class="donate-options">
+      <div class="donate-card">
+        <h3>Donate via PayPal</h3>
+        <p><a href="#">paypal.me/yourcharity</a></p>
+      </div>
+      <div class="donate-card">
+        <h3>Donate via Venmo</h3>
+        <p><a href="#">@your-venmo-handle</a></p>
+      </div>
+      <div class="donate-card">
+        <h3>Bank Transfer</h3>
+        <p>Routing #: 123456789<br>Account #: 987654321</p>
+      </div>
+    </div>
+  </section>
+`,
 };
 
 function navigate(page) {
