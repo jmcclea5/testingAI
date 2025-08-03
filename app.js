@@ -204,10 +204,6 @@ Smile Every Mile, Inc. (SEM) operates as a 501c non-profit organization serving 
         <h3>Donate via Venmo</h3>
         <p><a href="#">@your-venmo-handle</a></p>
       </div>
-      <div class="donate-card">
-        <h3>Bank Transfer</h3>
-        <p>Routing #: 123456789<br>Account #: 987654321</p>
-      </div>
     </div>
   </section>
 `,
