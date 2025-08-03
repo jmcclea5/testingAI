@@ -75,6 +75,7 @@ const pages = {
     </div>
   </section>
   `,
+  
   about: `
     <section>
     <h1>About Us</h1>
@@ -105,14 +106,14 @@ const pages = {
       `).join('')}
     </div>
   </section>
-  `
+  `,
   contact: `
     <section>
       <h1>Contact Us</h1>
       <p>Email: contact@example.com</p>
       <p>Phone: 123-456-7890</p>
     </section>
-  `
+  `,
 };
 
 function navigate(page) {
