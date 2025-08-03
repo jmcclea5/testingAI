@@ -213,6 +213,10 @@ function navigate(page) {
   const content = document.getElementById('content');
   content.innerHTML = pages[page] || pages['home'];
   setupCarouselAutoscroll();
+
+  const navLinks = document.querySelector('.nav-links');
+  if (window.innerWidth <= 768 && navLinks.classList.contains('show')) {
+    navLinks.classList.remove('show');
 }
 
 function setupCarouselAutoscroll() {
