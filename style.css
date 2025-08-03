@@ -47,6 +47,7 @@ nav ul li a:hover {
 /* Main Container */
 main {
   padding: 6em 2em 2em;
+  background-color: rgba(255, 0, 0, 0.1);
   max-width: 1000px;
   margin: auto;
 }
