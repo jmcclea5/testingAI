@@ -1,11 +1,5 @@
 const pages = {
   home: `
-    <!-- ✅ ADDED: Home Page Content -->
-    <section>
-      <h1>Welcome to Our Site</h1>
-      <p>This is the landing page of our simple site. Use the nav above to explore.</p>
-    </section>
-
     <!-- ✅ ADDED: Carousel Section -->
     <section>
       <h2>Upcoming Events</h2>
