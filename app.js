@@ -74,7 +74,7 @@ const pages = {
       `).join('')}
     </div>
   </section>
-`
+  `,
   about: `
     <section>
     <h1>About Us</h1>
