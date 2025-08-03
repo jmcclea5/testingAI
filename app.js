@@ -163,21 +163,21 @@ const pages = {
           <img src="SEM-images/SmileEveryMileLogo.jpeg" alt="Placeholder" />
           <h3>Shannon McCleary </h3>
           <p class="role">Chief People Officer</p>
-          <p class="description">Sara manages social media and promotional campaigns.</p>
+          <p class="description">Shannon's passion knows no bounds, as 4 knee surgeries, 3 new ACLs, a few re-attached MCL, LCL, TCL, and PCL tendons have not been enough to stop her from playing soccer.  Her impressive Highschool soccer career, while hindered by injury, still earned her a roster spot on a college soccer team.  She now spends her time yelling at people on zoom meetings and is eager to find a way back into the athletics she loves so much.  </p>
       </div>
       
       <div class="team-member">
           <img src="SEM-images/SmileEveryMileLogo.jpeg" alt="Placeholder" />
           <h3> Caitlin McCleary</h3>
           <p class="role">Social Media Coordinator </p>
-          <p class="description">Shannon's passion knows no bounds, as 4 knee surgeries, 3 new ACLs, a few re-attached MCL, LCL, TCL, and PCL tendons have not been enough to stop her from playing soccer.  Her impressive Highschool soccer career, while hindered by injury, still earned her a roster spot on a college soccer team.  She now spends her time yelling at people on zoom meetings and is eager to find a way back into the athletics she loves so much.  </p>
+          <p class="description">Caitlin is a former college soccer player, current travel team coach for the Dorchester Youth soccer, and avid runner (prior marathoner).  She has worked the last 10 years as a cardiology nurse.  She lives in Dorchester with her 4 children.</p>
       </div>
 
       <div class="team-member">
           <img src="SEM-images/SmileEveryMileLogo.jpeg" alt="Placeholder" />
           <h3>Tara McCleary </h3>
           <p class="role">Marketing Specialist</p>
-          <p class="description">Caitlin is a former college soccer player, current travel team coach for the Dorchester Youth soccer, and avid runner (prior marathoner).  She has worked the last 10 years as a cardiology nurse.  She lives in Dorchester with her 4 children.</p>
+          <p class="description"> Tara has a lot of friends </p>
       </div>
 
       
