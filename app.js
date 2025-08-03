@@ -22,7 +22,7 @@ const pages = {
     <!-- ✅ ADDED: About Section -->
     <section>
       <h2>About Smile Every Mile</h2>
-      <p>Our mission is to inspire and support athletes at every level by celebrating their achievements and encouraging perseverance through every mile.</p>
+      <p> Get to Know Us: ​Our story is simple. Founded in October 2024, we are a group connected through our fitness journeys, who want to help our communities of Quincy and Dorchester.  Spanning collegiate sports, running marathons, coaching, and so much more; our journeys have lead us all here.  What better way for us to help families and support our neighborhood than to create opportunities for us to gather in community for active events and raise money for good causes. </p>
     </section>
 
     <!-- ✅ ADDED: Athlete Highlights -->
