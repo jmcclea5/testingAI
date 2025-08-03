@@ -52,7 +52,6 @@ const pages = {
     </section>
   `,
   ...
-};
   events: `
     <section>
       <h1>Events</h1>
