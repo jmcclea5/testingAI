@@ -218,6 +218,7 @@ function navigate(page) {
   if (window.innerWidth <= 768 && navLinks.classList.contains('show')) {
     navLinks.classList.remove('show');
 }
+}
 
 function setupCarouselAutoscroll() {
   const carousel = document.querySelector('.carousel');
