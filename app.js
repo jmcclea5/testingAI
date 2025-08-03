@@ -131,7 +131,7 @@ Smile Every Mile, Inc. (SEM) operates as a 501c non-profit organization serving 
       </div>
       
       <div class="team-member">
-          <img src="SEM-images/OtherDerekPic.jpeg" alt="Derek Headshot" />
+          <img src="SEM-images/dereksPic.jpeg" alt="Derek Headshot" />
           <h3>Derek McCleary</h3>
           <p class="role">Founder & President </p>
           <p class="description">Derek is an SVP for TD Bank and has been working in banking and finance for 36 years.  He is also a 20+ year coach and life long volunteer. An entrepreneur, he has founded several companies in the sports industry and is passionate about the role sports play in youth development and society as a whole.  Derek has five children who have played high school and collegiate soccer and lives in Quincy (OFD). </p>
