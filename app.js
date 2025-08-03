@@ -106,7 +106,13 @@ const pages = {
   about: `
     <section>
     <h1>About Us</h1>
-    <p>We are a small team passionate about building simple and beautiful web experiences.</p>
+    <p>Our mission is twofold: we host community wellness events and sporting activities to fundraise for our Good Neighbor Fund. 
+ 
+SEM promotes health and wellness through sporting events such as road races, bike rides, walks, sports camps, clinics, and tournaments. Our mission is to inspire active lifestyles while fostering community engagement. 
+ 
+All net proceeds from our events directly support our Good Neighbor Fund. This fund will benefit families and organizations in the greater Boston community, through initiatives such as shelter and food assistance, financial aid for medical needs, elderly support services, special needs programs, youth afterschool and educational outreach programs. Through these efforts, we aim to create a healthier, stronger, and more connected community.​
+​
+Smile Every Mile, Inc. (SEM) operates as a 501c non-profit organization serving Dorchester and Quincy.</p>
   </section>
 
   <!-- ✅ Our Mission -->
