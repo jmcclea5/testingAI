@@ -277,18 +277,6 @@ function setupCarouselAutoscroll() {
     updateActiveIndicator(index);
   }, scrollInterval);
 }
-
-  setInterval(() => {
-    if (!carousel) return;
-    scrollAmount += scrollStep;
-    if (scrollAmount >= carousel.scrollWidth - carousel.clientWidth) {
-      scrollAmount = 0;
-    }
-    carousel.scrollTo({
-      left: scrollAmount,
-      behavior: 'smooth'
-    });
-  }, scrollInterval);
 }
 
 function toggleMenu() {
