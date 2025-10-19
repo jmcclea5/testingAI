@@ -277,7 +277,6 @@ function setupCarouselAutoscroll() {
     updateActiveIndicator(index);
   }, scrollInterval);
 }
-}
 
 function toggleMenu() {
   const navLinks = document.querySelector('.nav-links');
