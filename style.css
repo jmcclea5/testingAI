@@ -289,12 +289,23 @@ button:hover {
     display: block;
   }
 
+  .nav-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .site-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
   .nav-links {
     display: none;
     flex-direction: column;
     width: 100%;
     background-color: #111e37;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0;
   }
 
   .nav-links.show {
@@ -302,6 +313,30 @@ button:hover {
   }
 
   .nav-links li {
-    text-align: center;
-    margin: 0.5rem 0;
- 
+    width: 100%;
+    text-align: left;
+    padding: 0.5rem 1rem;
+  }
+
+  nav ul li a {
+    font-size: 1rem;
+    padding: 0.5rem 0;
+  }
+
+  .site-footer {
+    padding: 2rem 1rem;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .site-footer p {
+    margin-bottom: 0.5rem;
+  }
+
+  .site-footer a {
+    display: block;
+    margin-top: 0.5rem;
+    word-wrap: break-word;
+  }
+}
+
